@@ -1,0 +1,31 @@
+# 環境固有ファイル
+.env
+
+# Dockerボリューム・データ
+mysql-data/
+*.log
+
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# IDEファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 一時ファイル
+tmp/
+temp/
+*.tmp
+
+# PHP固有
+vendor/
+composer.lock
+*.cache
+
+# Node.js（将来的に使う可能性）
+node_modules/
+npm-debug.log
+yarn-error.log
